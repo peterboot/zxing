@@ -284,7 +284,7 @@ public final class CameraConfigurationUtils {
       }
       return new Point(defaultSize.width, defaultSize.height);
     }
-	
+
     // add support for camera drivers that define the preview size as preview_capture-size-*
     if (parameters.get("preview_capture-size-height") != null && parameters.get("preview_capture-size-width") != null) {
       Log.w(TAG, "Device has explicitely defined preview sizes; using these");
